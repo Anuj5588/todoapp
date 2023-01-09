@@ -1,0 +1,97 @@
+/*General*/
+body{
+display: flex;
+justify-content: center;
+font-family: sans-serif;
+background-color:white
+}
+
+
+/*Container*/
+.container{
+width: 100%;
+max-width: 700px;
+margin: 0 30px;
+margin-top: 105px;
+z-index: 2;
+
+}
+
+/*Header*/
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+ color:rgb(127,199,235);
+ font-size: 50px;
+ font-weight: bold;
+ margin: auto;
+ letter-spacing: 19px;
+}
+
+.new-todo {
+   
+    display: flex;
+    align-items: center;
+ }
+ 
+
+
+
+.new-todo input{
+   width: 214%;
+   padding: 9px 41px 10px 7px;
+   background-color: white;
+   outline: none;
+   font-size: 18px;
+   position: relative;
+   margin-left: 11px;
+
+}
+
+.new-todo input::placeholder {
+  font-weight: 700;
+   padding-left: 10px;
+ }
+
+
+ #addbtn img{
+   width: 55px;
+   position: absolute;
+   margin-top: -48px;
+   margin-left: 613px;
+   height: 48px;
+
+
+
+ }
+
+
+ /*Task*/
+ .todo-items-wrapper {
+    margin-top: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 29px 60px -23px rgba(0,0,0,0.75);
+   
+    
+ }
+
+
+
+.task-info {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    
+ }
+ 
+
+
+ 
